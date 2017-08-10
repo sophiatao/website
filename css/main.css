@@ -25,9 +25,21 @@ article {
     margin: 1000px auto;
 }
 
+.box {
+    margin-top: 15px;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 4px 4px;
+}
+
 
 h1 {
     font-weight: 200;
+}
+
+h2 {
+    margin-top: 0;
 }
 
 a {
@@ -48,4 +60,11 @@ a:hover {
 a:active {
     color: inherit;
     text-decoration: none;
+}
+
+body {
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
