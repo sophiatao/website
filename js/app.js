@@ -7,11 +7,11 @@ mq.addListener(WidthChange);
 function WidthChange(mq) {
     if (mq.matches) {
         $('nav').addClass('affix');
-        $('li').css('display', '');
+        $('.navli').css('display', '');
     }
     else {
         $('nav').removeClass('affix');
-        $('li').css('display','inline');
+        $('.navli').css('display','inline');
     }
 };
 

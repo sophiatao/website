@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400');
 
 
-ul {
+.navul {
     list-style-type: none;
     padding-left: 0;
 }
 
-li {
+.languages {
+    font-size: 3em;
+    text-align: justify;
+}
+
+/*.languages:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}*/
+
+
+.navli {
     padding-top: 10px;
 }
 
