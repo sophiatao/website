@@ -99,6 +99,7 @@ body {
     -moz-box-sizing: border-box;
 }
 
-.upper {
-    text-transform: uppercase;
-}
+/*#photos{
+    margin: 0 50px;
+}*/
+
