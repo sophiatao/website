@@ -7,7 +7,7 @@
 - set about as home page for mobile screens
 - add more photos*/
 
-img {
+#photos.find(img) {
     width: 100%;
 }
 
