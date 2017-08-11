@@ -1,17 +1,17 @@
 /* responding to width change*/
 
-const mq = window.matchMedia('(max-width: 991px)');
+const mq = window.matchMedia('(min-width: 991px)');
 
 mq.addListener(WidthChange);
 
 function WidthChange(mq) {
     if (mq.matches) {
-        $('nav').removeClass('affix');
-        $('li').css('display', 'inline');
+        $('nav').addClass('affix');
+        $('li').css('display', '');
     }
     else {
-        $('nav').addClass('affix');
-        $('li').css('display','');
+        $('nav').removeClass('affix');
+        $('li').css('display','inline');
     }
 };
 
