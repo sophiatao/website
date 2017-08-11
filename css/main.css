@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400');
 
 
+img {
+    width: 100%;
+}
+
 .navul {
     list-style-type: none;
     padding-left: 0;

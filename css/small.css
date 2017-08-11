@@ -1,8 +1,0 @@
-/* responsive topnav to bootstrap*/
-@media screen and (max-width: 991px) {
-  nav a {display: none;}
-  nav a.icon {
-    float: right;
-    display: block;
-  }
-}
