@@ -22,8 +22,12 @@ main {
     font-weight: 200;
 }
 
-article {
-    margin: 1000px auto;
+.hidden {
+    display: none;
+}
+
+.unhidden {
+    display: inline;
 }
 
 .box {
