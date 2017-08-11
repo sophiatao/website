@@ -22,6 +22,10 @@ main {
     font-weight: 200;
 }
 
+article {
+    padding: 10px;
+}
+
 .hidden {
     display: none;
 }
