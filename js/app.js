@@ -17,7 +17,7 @@ function WidthChange(mq) {
 
 /* navigating*/
 $(document).ready(function() {
-    $('a').click(function(evt) {
+    $('.navli').children().click(function(evt) {
         var anchor = $(this).attr('href');
         $('article').addClass('hidden');
         $(anchor).removeClass('hidden');
