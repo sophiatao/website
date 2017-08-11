@@ -79,10 +79,12 @@ footer {
 
 h1 {
     font-weight: 200;
+    padding-top: 10px;
 }
 
 h2 {
     margin-top: 0;
+    font-weight: 200;
 }
 
 a {
