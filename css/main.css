@@ -58,6 +58,11 @@ footer {
     text-align: right;
     bottom: 0;
     height: 60px;
+    padding: 10px;
+}
+
+.footer {
+    text-align: right;
 }
 
 .hidden {
@@ -115,4 +120,7 @@ body {
 }
 
 
-
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
