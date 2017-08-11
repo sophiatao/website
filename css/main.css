@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400');
 
 
+/*known issues/improvements:
+- landscape mode does not work properly on phones
+- possibly add modal to slideshow;
+- set about as home page for mobile screens
+- add more photos*/
+
 img {
     width: 100%;
 }
@@ -30,21 +36,28 @@ img {
     li {display: inline;}
 }
 
-nav {
+body {
     font-family: 'Nunito', sans-serif;
     /*color: #0f6402;*/
     color: #1a1f2c;
+}
+
+nav {
     font-weight: 300;
 }
 
 main {
-    font-family: 'Nunito', sans-serif;
-    color: #1a1f2c;
     font-weight: 200;
 }
 
 article {
     padding: 10px;
+}
+
+footer {
+    text-align: right;
+    bottom: 0;
+    height: 60px;
 }
 
 .hidden {
@@ -99,7 +112,5 @@ body {
     -moz-box-sizing: border-box;
 }
 
-/*#photos{
-    margin: 0 50px;
-}*/
+
 
